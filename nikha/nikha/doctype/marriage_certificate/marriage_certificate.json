@@ -23,23 +23,25 @@
   "address",
   "bride_section",
   "bride_name",
-  "age",
+  "bride_dob",
   "bride_gender",
   "email",
   "bride_aadhar_card",
   "photo_of_bride",
   "column_break_xrgg",
   "bride_father_name",
-  "bride_dob",
+  "age",
   "religion_of_bride",
   "occupation_of_bride",
   "mobile_no",
   "bride_address",
   "section_break_ycgu",
   "date_of_marriage",
-  "amount_of_maher",
-  "place_of_marriage",
+  "issue_date",
   "name_of_qazi",
+  "column_break_blgn",
+  "place_of_marriage",
+  "amount_of_maher",
   "shaher_qazi"
  ],
  "fields": [
@@ -80,8 +82,7 @@
   },
   {
    "fieldname": "column_break_tsat",
-   "fieldtype": "Column Break",
-   "label": "Occupation of Groom"
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "father_name",
@@ -91,7 +92,8 @@
   {
    "fieldname": "groom_age",
    "fieldtype": "Data",
-   "label": "Groom Age"
+   "label": "Groom Age",
+   "read_only": 1
   },
   {
    "fieldname": "dob",
@@ -128,7 +130,8 @@
   {
    "fieldname": "age",
    "fieldtype": "Data",
-   "label": "Bride Age"
+   "label": "Bride Age",
+   "read_only": 1
   },
   {
    "fieldname": "email",
@@ -227,13 +230,22 @@
    "fieldname": "name_of_qazi",
    "fieldtype": "Data",
    "label": "Name of Qazi"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "column_break_blgn",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-26 12:32:44.552953",
+ "modified": "2025-07-28 17:10:26.745508",
  "modified_by": "Administrator",
  "module": "Nikha",
  "name": "Marriage Certificate",
