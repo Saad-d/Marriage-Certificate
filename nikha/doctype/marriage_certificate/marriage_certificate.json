@@ -1,0 +1,279 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MC-{YYYY}-{####}-{BSL}",
+ "creation": "2025-07-24 16:48:17.725290",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_xovt",
+  "amended_from",
+  "groom_name",
+  "dob",
+  "gender",
+  "email_of_groom",
+  "aadhar_card",
+  "photo",
+  "column_break_tsat",
+  "father_name",
+  "groom_age",
+  "religion_of_groom",
+  "data_sfnk",
+  "mobile_number",
+  "address",
+  "bride_section",
+  "bride_name",
+  "bride_dob",
+  "bride_gender",
+  "email_of_bride",
+  "bride_aadhar_card",
+  "photo_of_bride",
+  "column_break_xrgg",
+  "bride_father_name",
+  "age",
+  "religion_of_bride",
+  "occupation_of_bride",
+  "mobile_no",
+  "bride_address",
+  "section_break_ycgu",
+  "date_of_marriage",
+  "issue_date",
+  "name_of_qazi",
+  "column_break_blgn",
+  "place_of_marriage",
+  "amount_of_maher",
+  "shaher_qazi"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_xovt",
+   "fieldtype": "Section Break",
+   "label": "Groom Details"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Marriage Certificate",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "groom_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Groom Name"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "aadhar_card",
+   "fieldtype": "Attach",
+   "label": "Aadhar Card"
+  },
+  {
+   "fieldname": "column_break_tsat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "groom_age",
+   "fieldtype": "Data",
+   "label": "Groom Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Groom D.O.B"
+  },
+  {
+   "default": "Male",
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach",
+   "label": "Photo of Groom"
+  },
+  {
+   "fieldname": "bride_section",
+   "fieldtype": "Section Break",
+   "label": "Bride Details"
+  },
+  {
+   "fieldname": "bride_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bride Name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Bride Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "bride_aadhar_card",
+   "fieldtype": "Attach",
+   "label": "Bride Aadhar Card"
+  },
+  {
+   "fieldname": "photo_of_bride",
+   "fieldtype": "Attach",
+   "label": "Photo of Bride"
+  },
+  {
+   "fieldname": "column_break_xrgg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bride_father_name",
+   "fieldtype": "Data",
+   "label": "Bride Father Name"
+  },
+  {
+   "fieldname": "bride_dob",
+   "fieldtype": "Date",
+   "label": "Bride D.O.B"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Phone",
+   "label": "Mobile No."
+  },
+  {
+   "fieldname": "bride_address",
+   "fieldtype": "Small Text",
+   "label": "Bride Address"
+  },
+  {
+   "default": "Female",
+   "fieldname": "bride_gender",
+   "fieldtype": "Select",
+   "label": "Bride Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "section_break_ycgu",
+   "fieldtype": "Section Break",
+   "label": "Marriage Details"
+  },
+  {
+   "description": "Saad Khan",
+   "fieldname": "shaher_qazi",
+   "fieldtype": "Signature",
+   "label": "Shaher Qazi"
+  },
+  {
+   "fieldname": "date_of_marriage",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Marriage"
+  },
+  {
+   "fieldname": "place_of_marriage",
+   "fieldtype": "Data",
+   "label": "Place of Marriage"
+  },
+  {
+   "fieldname": "religion_of_groom",
+   "fieldtype": "Select",
+   "label": "Religion of Groom",
+   "options": "Islam"
+  },
+  {
+   "fieldname": "religion_of_bride",
+   "fieldtype": "Select",
+   "label": "Religion of Bride",
+   "options": "Islam"
+  },
+  {
+   "fieldname": "data_sfnk",
+   "fieldtype": "Data",
+   "label": "Occupation of Groom"
+  },
+  {
+   "fieldname": "occupation_of_bride",
+   "fieldtype": "Data",
+   "label": "Occupation of Bride"
+  },
+  {
+   "fieldname": "amount_of_maher",
+   "fieldtype": "Data",
+   "label": "Amount of Maher"
+  },
+  {
+   "fieldname": "name_of_qazi",
+   "fieldtype": "Data",
+   "label": "Name of Qazi"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "column_break_blgn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_of_groom",
+   "fieldtype": "Data",
+   "label": "Email of Groom",
+   "options": "Email"
+  },
+  {
+   "fieldname": "email_of_bride",
+   "fieldtype": "Data",
+   "label": "Email of Bride",
+   "options": "Email"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-31 11:14:27.908644",
+ "modified_by": "Administrator",
+ "module": "Nikha",
+ "name": "Marriage Certificate",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
